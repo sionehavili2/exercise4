@@ -1,0 +1,28 @@
+body
+{
+  justify-content: center;
+}
+
+input{
+  font-size: 1em;
+}
+.inputContainer
+{
+  background-color:rgb(80,80,80);
+  border-radius: 12px;
+  display:flex;
+  justify-content:space-evenly;
+  padding:1em;
+  margin-bottom: 1em;
+}
+
+.weatherDataContainer{
+  background-color: rgb(80,80,80);
+  color:white;
+  padding: 1em;
+  border-radius: 12px;
+}
+
+.invalidInput{
+  background-color: lightcoral;
+}
